@@ -1,13 +1,13 @@
 [[main]]
-  identifier = "docs"
-  name = "Docs"
-  url = "docs"
+  identifier = "home"
+  name = "Home"
+  url = "https://brisberg.dev"
   weight = 1
 
 [[main]]
-  identifier = "updates"
-  name = "Updates"
-  url = "updates"
+  identifier = "docs"
+  name = "Docs"
+  url = "docs"
   weight = 2
 
 [[main]]
