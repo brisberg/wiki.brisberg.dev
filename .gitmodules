@@ -1,0 +1,3 @@
+[submodule "site/themes/zDoc"]
+	path = site/themes/zDoc
+	url = https://github.com/zzossig/hugo-theme-zdoc.git
