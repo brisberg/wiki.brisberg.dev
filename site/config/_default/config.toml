@@ -1,6 +1,6 @@
-baseURL = "http://example.org"
+baseURL = "http://wiki.brisberg.dev"
 title = "Hugo Zdoc Theme"
-theme = "zdoc"
+theme = "zDoc"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
