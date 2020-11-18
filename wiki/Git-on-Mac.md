@@ -19,7 +19,9 @@ A suggestion is to use Homebrew to install normal `git` which will use any confi
 
 ```bash
 $ brew install git
-# --- install steps
+# brew install output omitted
+
+# open a new shell
 $ git --version
 git version 2.29.2
 ```
