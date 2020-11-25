@@ -10,6 +10,9 @@ theme = "Book"
 disablePathToLower = false
 enableGitInfo = true
 
+# Theme is intended for documentation use, therefore it doesn't render taxonomy.
+disableKinds = ['taxonomy', 'taxonomyTerm']
+
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
