@@ -1,6 +1,6 @@
 ---
-bookCollapseSection: true
 weight: 1
+bookCollapseSection: true
 title: "Hugo"
 ---
 
