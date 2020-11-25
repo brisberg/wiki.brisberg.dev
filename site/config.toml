@@ -1,12 +1,13 @@
-# hugo server --minify
-
 baseURL = "https://wiki.brisberg.dev/"
 languageCode = "en-us"
 title = "Brisberg Wiki"
-theme = 'Book'
+theme = "Book"
+
+# Theme configuration
+# See https://github.com/alex-shpak/hugo-book#configuration for documentation
 
 # Book configuration
-# disablePathToLower = true
+disablePathToLower = false
 enableGitInfo = true
 
 # Needed for mermaid/katex shortcodes
@@ -19,65 +20,44 @@ enableGitInfo = true
 
 [menu]
 [[menu.after]]
+  name = "Blog"
+  url = "https://blog.brisberg.dev"
+  weight = 9
+[[menu.after]]
   name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
+  url = "https://github.com/brisberg/wiki.brisberg.dev"
   weight = 10
 
 [params]
-  # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme = 'auto'
 
-  # (Optional, default true) Controls table of contents visibility on right side of pages.
-  # Start and end levels can be controlled with markup.tableOfContents setting.
-  # You can also specify this parameter per page in front matter.
+  # Show table of contents on right side of pages.
   BookToC = true
 
-  # (Optional, default none) Set the path to a logo for the book. If the logo is
-  # /static/logo.png then the path would be logo.png
+  # Path to logo asset. Relative under '/static/'.
   BookLogo = 'favicon.png'
-
-  # (Optional, default none) Set leaf bundle to render as side menu
-  # When not specified file structure and weights will be used
-  # See ExampleSite for usage
-  # BookMenuBundle = '/menu'
-
-  # (Optional, default docs) Specify root page to render child pages as menu.
-  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
-  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection = 'docs'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
   BookRepo = 'https://github.com/brisberg/wiki.brisberg.dev'
 
   # Enable "Edit this page" links for 'doc' page type.
-  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
-  # Edit path must point to root directory of repo.
-  BookEditPath = 'edit/main/exampleSite'
+  BookEditPath = 'edit/main/site'
 
   # Configure the date format used on the pages
   # - In git information
   # - In blog posts
   BookDateFormat = 'January 2, 2006'
 
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
+  # Enables search function with flexsearch,
   # Configuration for indexing can be adjusted in i18n folder per language.
   BookSearch = true
 
-  # (Optional, default true) Enables comments template on pages
-  # By default partals/docs/comments.html includes Disqus template
+  # Disables comments template on pages
   # See https://gohugo.io/content-management/comments/#configure-disqus
-  # Can be overwritten by same param in page frontmatter
-  BookComments = true
+  BookComments = false
 
   # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
-  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
-  # Theme will print warning if page referenced in markdown does not exists.
-  # BookPortableLinks = true
-
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
+  # Enables service worker that caches visited pages and resources for offline use.
   BookServiceWorker = true
