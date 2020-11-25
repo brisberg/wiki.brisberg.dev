@@ -1,7 +1,7 @@
 baseURL = "https://wiki.brisberg.dev/"
 languageCode = "en-us"
 title = "Brisberg Wiki"
-theme = "Book"
+theme = "book"
 
 # Theme configuration
 # See https://github.com/alex-shpak/hugo-book#configuration for documentation
