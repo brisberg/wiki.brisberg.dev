@@ -20,3 +20,9 @@ This could even include local storage, but possibly session storage would be bet
 I need several CTA buttons to link back to `home` (brisberg.dev), `blog` (blog.brisberg.dev), and `github` (github.com/brisberg/wiki.brisberg.dev).
 
 Currently they are included with template injection and `menu.after`. It would be better to highlight them at the top to distinguish them from topic categories.
+
+#### Image Attribution CSS
+
+I should find a way to layer in CSS into the Markdown files. Sepcifically, I want to include a "Image From \<source>" line below images I use from other people. This attribution line should be smaller and centered.
+
+Currently I can embed html directly in markdown, but I would prefer to have a CSS sheet for this purpose.
