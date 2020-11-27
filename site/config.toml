@@ -46,7 +46,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   BookRepo = 'https://github.com/brisberg/wiki.brisberg.dev'
 
   # Enable "Edit this page" links for 'doc' page type.
-  BookEditPath = 'edit/main/site'
+  BookEditPath = 'edit/main/site/content'
 
   # Configure the date format used on the pages
   # - In git information
