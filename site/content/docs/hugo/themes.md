@@ -39,7 +39,7 @@ Zdoc differs from Book in the following ways:
 - Integrated Search using [Fuse.js](https://fusejs.io/)
 - Light/Dark Theme toggle
 
-Search experience is better because it includes match previews. Search Index is pre-built and Hugo build time so is fast on the client.
+Search experience is better because it includes match previews. Search Index is pre-built at Hugo build time so is fast on the client.
 
 Light/Dark Theme toggle is gives better user control, and saves preference to Local Storage.
 
