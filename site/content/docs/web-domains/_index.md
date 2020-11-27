@@ -34,9 +34,11 @@ Domain names can be purchased on a monthly or yearly basis and no other user can
 
 Once you own a Domain Name, you can also supply an unlimited number of Subdomains for any purpose.
 
-There are a large number of DNS Registrars from which you can purchase domains, these are some of the most popular:
+There are a large number of DNS Registrars from which you can purchase domains. These are some of the most popular:
 
 - [Google Domains](https://domains.google.com)
 - [Wix.com](https://www.wix.com/)
 - [GoDaddy](https://www.godaddy.com/)
 - [namecheap](https://www.namecheap.com/)
+
+My best experience so far is with Google Domains, as they usually had lower prices on many domains. Google is the only provider of their new TLDs `.dev` and `.page`.
