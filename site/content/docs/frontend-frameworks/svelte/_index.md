@@ -18,6 +18,14 @@ Unlike other frameworks which include the framework core as a runtime dependency
 
 This is also how Svelte instraments reactivity, by inserting it into your code at compile time.
 
+## TypeScript Support
+
+Svelte 3 added TypeScript support in July 2020 (See their blog [post](https://svelte.dev/blog/svelte-and-typescript)). This means you can write TypeScript code in `.svelte` `<script>` tags using the `lang=ts` attribute. Also you can pass `.ts` files to the Svelte compiler for output generation.
+
+## Unit Testing
+
+Most Svelte unit testing is performed using the `@testing-library/svelte` testing library. ([Docs](https://testing-library.com/docs/svelte-testing-library/intro/)). This is a set of compatibility wrappers around the Dom Testing Library for easy use with different libraries, including Svelte.
+
 ## Example App
 
 My sample application written in Svelte can be found at [Svelte Sample](https://github.com/brisberg/svelte-sample).
